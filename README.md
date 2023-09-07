@@ -1,9 +1,10 @@
+###Flutter Import-Export Trade Decision Calculator
 
-#Flutter Import-Export Trade Decision Calculator
 #Overview
+
 This calculator is designed to assist traders in the import/export industry in making informed trade decisions. By inputting key details related to their trade, users can get a clear picture of their total costs both in INR and USD. This can help traders decide whether a particular trade would be profitable or not.
 
-Features
+#Features
 Cost Calculations: Calculates the total cost based on the following inputs:
 Total quantity
 Price per Kg
@@ -13,7 +14,7 @@ Currency Conversion: Uses a current dollar rate fetched via API or allows manual
 Total cost in INR and USD
 Price per ton in INR and USD
 API Integration: Automatically fetches the current dollar rate to ensure up-to-date conversions.
-How to Use
+#How to Use
 Start the App: Launch the app on your device.
 
 Input Trade Details: Enter the total quantity, price per Kg, transportation cost, and total CHA in the respective fields.
@@ -28,10 +29,11 @@ Total cost in INR and USD
 Price per ton in INR and USD
 Make Informed Decisions: Evaluate the calculated costs to make an informed trade decision.
 
-Requirements
-Flutter SDK version XX.XX
+#Requirements
+Flutter SDK 
 An internet connection (for fetching the current dollar rate via API)
-Installation
+
+#Installation
 Clone/download the repository
 Navigate to the project directory
 Run flutter pub get
