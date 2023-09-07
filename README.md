@@ -1,16 +1,43 @@
-# gcalculator
 
-A new Flutter project.
+#Flutter Import-Export Trade Decision Calculator
+#Overview
+This calculator is designed to assist traders in the import/export industry in making informed trade decisions. By inputting key details related to their trade, users can get a clear picture of their total costs both in INR and USD. This can help traders decide whether a particular trade would be profitable or not.
 
-## Getting Started
+Features
+Cost Calculations: Calculates the total cost based on the following inputs:
+Total quantity
+Price per Kg
+Transportation cost
+Total CHA (Clearing House Agent charges)
+Currency Conversion: Uses a current dollar rate fetched via API or allows manual input to provide:
+Total cost in INR and USD
+Price per ton in INR and USD
+API Integration: Automatically fetches the current dollar rate to ensure up-to-date conversions.
+How to Use
+Start the App: Launch the app on your device.
 
-This project is a starting point for a Flutter application.
+Input Trade Details: Enter the total quantity, price per Kg, transportation cost, and total CHA in the respective fields.
 
-A few resources to get you started if this is your first Flutter project:
+Dollar Rate:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+If you have internet access, the app will automatically fetch the current dollar rate using the integrated API.
+Alternatively, you can manually input the current dollar rate if needed.
+View Results: Once all the required information is inputted, the app will display:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Total cost in INR and USD
+Price per ton in INR and USD
+Make Informed Decisions: Evaluate the calculated costs to make an informed trade decision.
+
+Requirements
+Flutter SDK version XX.XX
+An internet connection (for fetching the current dollar rate via API)
+Installation
+Clone/download the repository
+Navigate to the project directory
+Run flutter pub get
+Build and run the app using flutter run
+Feedback and Contributions
+We welcome feedback, bug reports, and feature requests. If you're interested in contributing to the project, please open a new issue or submit a pull request.
+
+License
+This project is licensed under the XYZ License - see the LICENSE.md file for details.
