@@ -1,7 +1,5 @@
 ###Flutter Import-Export Trade Decision Calculator
-
 #Overview
-
 This calculator is designed to assist traders in the import/export industry in making informed trade decisions. By inputting key details related to their trade, users can get a clear picture of their total costs both in INR and USD. This can help traders decide whether a particular trade would be profitable or not.
 
 #Features
