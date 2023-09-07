@@ -56,6 +56,6 @@ Run flutter pub get
 
 Build and run the app using flutter run
 
-Feedback and Contributions
+## Feedback and Contributions
 
 We welcome feedback, bug reports, and feature requests. If you're interested in contributing to the project, please open a new issue or submit a pull request.
